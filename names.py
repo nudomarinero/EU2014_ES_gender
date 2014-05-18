@@ -60,11 +60,8 @@ if process_gender:
 
     # Replace undefined or wrong gender with the manual gender
     for n in out:
-        if n["gender"] == 0:
-            if n["name"] in manual_names.keys():
-                n["gender"] = manual_names[n["name"]]
-            else:
-                print n
+        if n["name"] in manual_names.keys():
+            n["gender"] = manual_names[n["name"]]
 
     names = pd.DataFrame(out, columns=[u"name", u"name_decoded", u"gender"])
 
