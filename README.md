@@ -28,3 +28,6 @@ The data is analysed and commented using IPython notebooks like
 _genero\_diputados.ipynb_.
 
 At the moment, the notebooks are writen in Spanish.
+
+Links to the notebooks on the Notebook Viewer:
+* [genero_diputados.ipynb](http://nbviewer.ipython.org/github/nudomarinero/EU2014_ES_gender/blob/master/genero_diputados.ipynb)
