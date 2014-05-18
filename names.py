@@ -72,8 +72,9 @@ if process_gender:
     #print names
     names.to_csv(os.path.join('data', 'names.csv'), encoding="utf-8")
 
+    print len(data)
     data2 = data.reset_index().merge(names[[u"name_decoded", u"gender"]], how="left",
-                    left_on="nombre", right_on=u"name_decoded").set_index('index').sort()
+        left_on="nombre", right_on=u"name_decoded").set_index('index').sort().drop_duplicates()
     del data2[u"name_decoded"]
 
     #print data2[["nombre", "gender"]]
