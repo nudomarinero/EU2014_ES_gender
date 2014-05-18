@@ -15,7 +15,7 @@ The names of the candidates are detected and the gender is determined using a
 be determined by the name or the match is wrong the gender is manually
 corrected. This part is done with _names.py_.
 
-The final data is stored in the _data_ directory. The file HDF5
+The final data is stored in the _data_ directory. The HDF5 file
 _candidatos.h5_ contains a table called _data_ with the data of the
 candidates. This table can be found in _data.csv_ in csv format.
 
