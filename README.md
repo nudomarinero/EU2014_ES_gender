@@ -19,7 +19,14 @@ The final data is stored in the _data_ directory. The HDF5 file
 _candidatos.h5_ contains a table called _data_ with the data of the
 candidates. This table can be found in _data.csv_ in csv format.
 
-Part of the code is commented in Spanish.
+Dependencies:
+* numpy
+* pandas
+* unidecode
+
+You will also need IPython if you want to run and modify the notebooks.
+
+Disclaimer: Part of the code is commented in Spanish.
 
 Analysis of the data
 --------------------
