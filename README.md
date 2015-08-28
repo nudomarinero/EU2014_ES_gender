@@ -3,6 +3,8 @@ Gender of the Spanish candidates for the 2014 EU Elections
 
 Code to analyse the gender of the Spanish candidates for the EU Elections.
 
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/nudomarinero/EU2014_ES_gender)
+
 Loading and pre-processing of the data
 --------------------------------------
 
